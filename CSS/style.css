@@ -11,7 +11,7 @@ body{
 	padding: 100px;
 	height: 100%;
 	width: 100%;
-	background-color: grey
+	background-color: #7d536d;
 
 }
 
@@ -59,12 +59,6 @@ p{
 	position: relative;
 	transition-duration: 2s;
 }
-.img:hover{
-	opacity: 0.3;
-	transition-duration: 2s;
-	
-}
-
 
 .lorem{
 	position: absolute;
@@ -77,4 +71,9 @@ p{
 .imgtext:hover .lorem{
 	color: #324f72;
 	transition-duration: 2s;
+	font-size: 26px;
+}
+.imgtext:hover .img{
+	opacity: 0.3;
+	transition-duration: 2s
 }
