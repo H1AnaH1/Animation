@@ -1,0 +1,35 @@
+html, body{
+
+	height: 100%;
+	width: 100%;
+}
+body{
+	padding: 20px;
+
+}
+.bg{
+	height: 100%;
+	width: 100%;
+	background-color: grey
+}
+
+.text{
+	color: white;
+	margin-bottom: 100px;
+
+
+}
+.box{
+	background-color: green;
+	width: 610px;
+	height: 320px;
+
+}
+
+.imgtext{
+	width: 610px;
+	height: 320px;
+}
+.img{
+	width: 100%;
+}
