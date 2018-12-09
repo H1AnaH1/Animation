@@ -20,19 +20,29 @@ body{
 	margin-bottom: 100px;
 	font-size: 45px;
 	margin-left: 650px;
-
+	transition-duration: 6s;
 
 }
+.text:hover{	
+	color: #c77980;
+	transition-duration: 6s;
+}
 .box{
-	background-color: green;
+	background-color: #324f72;
 	width: 610px;
 	height: 343px;
 	display: inline-block;
 	margin-left: 270px;
 	vertical-align: top;
 	padding: 50px;
+	transition-duration: 6s;
 
 }
+.box:hover{
+	background-color: #7d536d;
+	transition-duration: 6s;
+}
+
 p{
 	font-size: 25px;
 	color: white;
@@ -42,7 +52,29 @@ p{
 	height: 343px;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
 }
 .img{
 	width: 100%;
+	position: relative;
+	transition-duration: 2s;
+}
+.img:hover{
+	opacity: 0.3;
+	transition-duration: 2s;
+	
+}
+
+
+.lorem{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	transition-duration: 2s;
+
+}
+
+.imgtext:hover .lorem{
+	color: #324f72;
+	transition-duration: 2s;
 }
